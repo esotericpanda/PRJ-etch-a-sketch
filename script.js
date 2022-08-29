@@ -3,7 +3,6 @@ const grid = document.querySelector(".grid")
 const btn= document.querySelector("#size-changer");
 
 function makeGrid(size) {
-    grid.rem
 
     for (let i = 0; i < size; i++) {
         let row = document.createElement("div");
