@@ -6,6 +6,21 @@ body{
     min-height: 100vh;
 }
 
+.container{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+}
+
+button{
+    padding: 15px;
+    margin: 8px;
+    color: white;
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    border-style: none;
+}
+
 .grid{
     height: 600px;
     width: 600px;
